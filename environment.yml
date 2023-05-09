@@ -1,6 +1,7 @@
 name: dmi_2022
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - appnope=0.1.2
   - asttokens=2.0.5
@@ -45,9 +46,13 @@ dependencies:
   - tk=8.6.12
   - tornado=6.2
   - traitlets=5.7.1
-  - tzdata=2023c
   - wcwidth=0.2.5
   - wheel=0.38.4
   - xz=5.4.2
   - zeromq=4.3.4
   - zlib=1.2.13
+  - pip:
+      - numpy==1.24.3
+      - pandas==2.0.1
+      - pytz==2023.3
+      - tzdata==2023.3
